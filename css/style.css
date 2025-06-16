@@ -1,0 +1,20 @@
+nav {
+    border-bottom: 1px solid black;
+}
+
+body {
+    background-color: #e2f3f4;
+    font-family: Arial, sans-serif;
+  }
+
+.page-link {
+    display: inline-block;
+}
+.page-link a::after{
+    display: inline-block;
+    color: #b65e5e;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
