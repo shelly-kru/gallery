@@ -1,50 +1,58 @@
-nav {
-    border-bottom: 1px solid black;
-}
-
 body {
     background-color: #eef5f6;
-    font-family: Arial, sans-serif;
-  }
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-table, td, th {
+h1 {
+    background-image: url("../images/plants-bg.png");
+    padding: 30px;
+    color: #e74529;
+    text-shadow: rgb(123, 69, 11) 1px 0.2em 10px;
+}
+
+table,
+td,
+th {
     border: 17px rgb(112, 154, 218);
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-  }
+}
 
-  ul {
+th {
+    background-color: #daf7f7;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #3d484b;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-
-th {
-    background-color: #daf7f7;
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
 img {
     margin-left: auto;
     margin-right: auto;
@@ -52,8 +60,4 @@ img {
     width: 40%;
     outline: double;
     outline-color: darkcyan;
-}
-
-a:active {
-    color: blue;
 }
