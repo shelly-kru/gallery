@@ -3,7 +3,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+.web-headline {
     background-image: url("../images/plants-bg.png");
     padding: 30px;
     color: #a2e2fd;
