@@ -1,0 +1,73 @@
+body {
+    background-color: #eef5f6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#web-headline {
+    background-image: url("../images/plants-bg.png");
+    padding: 30px;
+    color: #a2e2fd;
+    text-shadow: rgb(11, 82, 123) 1px 0.2em 10px;
+}
+
+h4 {
+    color: rgb(5, 142, 5);
+    text-shadow: rgb(11, 87, 42) 1px 0.2em 10px;
+}
+table,
+td,
+th {
+    border: 17px rgb(112, 154, 218);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #daf7f7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d484b;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    outline: double;
+    outline-color: darkcyan;
+}
