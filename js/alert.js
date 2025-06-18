@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   
     // Use addEventListener to handle pointerover
-    tableFields.addEventListener("pointerover", function () {
+    tableFields.addEventListener("mouseover", function () {
       alert(`${plant.textContent} info.`);
     });
   });
