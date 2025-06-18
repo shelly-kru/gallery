@@ -1,9 +1,6 @@
-setInterval(setCounter, 1000
-);
-
 function setCounter() {
-  // Your code here
-  // Parameters are purely optional.
-  const counterHtml = document.getElementById("counter");
-  counterHtml.innerHTML = Number(counterHtml.textContent) + 1;
-};
+    const counterElement = document.getElementById("counter");
+    counterElement.innerHTML = Number(counterElement.textContent) + 1;
+  };
+  
+setInterval(setCounter, 1000);
