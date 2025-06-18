@@ -71,3 +71,11 @@ img {
     outline: double;
     outline-color: darkcyan;
 }
+
+#counter {
+    outline: double;
+    background-color: rgb(112, 154, 218);
+    width: 5%;
+    text-align: center;
+
+}
