@@ -1,6 +1,15 @@
-function setCounter() {
+function setCounter(setter = null) {
     const counterElement = document.getElementById("counter");
-    counterElement.innerHTML = Number(counterElement.textContent) + 1;
+    if (setter === null) {
+        counterElement.innerHTML = Number(counterElement.textContent) + 1;
+    }
+    else {
+        counterElement.innerHTML = setter;
+    }
   };
-  
-setInterval(setCounter, 1000);
+
+intervalCounter = setInterval(setCounter, 1000);
+
+function stopCounter() {
+    setCounter(0);
+  };
